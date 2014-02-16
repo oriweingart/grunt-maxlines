@@ -1,0 +1,43 @@
+{
+  "name": "grunt-maxlines",
+  "description": "Enforce a maximum number of lines for your source files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zerok/grunt-maxlines",
+  "author": {
+    "name": "Horst Gutmann",
+    "email": "zerok@zerokspot.com",
+    "url": "http://zerokspot.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zerok/grunt-maxlines.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zerok/grunt-maxlines/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "sloc": "0.0.7"
+  }
+}
